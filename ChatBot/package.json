@@ -1,0 +1,23 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/core": "^1.2.14",
+    "@langchain/textsplitters": "^1.0.2",
+    "@supabase/supabase-js": "^2.117.2",
+    "cheerio": "^1.2.0",
+    "dotenv": "^18.0.5",
+    "openai": "^7.28.0",
+    "puppeteer": "^25.12.0"
+  }
+}

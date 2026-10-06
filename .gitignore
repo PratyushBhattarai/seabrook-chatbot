@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Secret keys — never upload these
+.env
+.env.local
+.env*.local
+
+# Build output
+.next/
+out/
+.vercel/
+
+# Logs
+*.log
